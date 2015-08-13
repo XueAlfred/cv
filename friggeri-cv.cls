@@ -97,15 +97,9 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        blue\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\else%
         headercolor\fi%
     } #1#2#3%
   }%
-  \stepcounter{colorCounter}%
 }
 
 \renewcommand{\section}[1]{
